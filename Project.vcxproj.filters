@@ -16,6 +16,9 @@
     <Filter Include="Pliki zasobów\Shaders">
       <UniqueIdentifier>{8ceb20bd-915e-4c48-beb7-9f7632e978ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Pliki zasobów\Texures">
+      <UniqueIdentifier>{5e3cadf2-2c02-4916-97be-10be059c7da1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -34,6 +37,12 @@
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="VAO.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
@@ -58,5 +67,16 @@
     <ClInclude Include="VAO.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\pop_cat.png">
+      <Filter>Pliki zasobów\Texures</Filter>
+    </Image>
+    <Image Include="..\Temp\brick.png">
+      <Filter>Pliki zasobów\Texures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
